@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+
+}
+
+.table-wrapper {
+  position: relative;
+}
+
+.table-wrapper .add-button {
+  position: absolute;
+  right: -7%;
+  margin: 30px 10px 10px;
+}
+
+.table-wrapper table {
+  table-layout: fixed;
+  width: 100%;
+  padding: 20px;
+  transition: margin-top 0.5s;
+
+}
+
+.table-wrapper table td th {
+  width: 25%;
+}
+
+.overflow-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.find-by-name {
+  width: auto;
+  max-width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  color: inherit;
+  outline: none;
+}
